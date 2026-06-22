@@ -1,13 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" preserveAspectRatio="xMidYMid slice">
-  <rect width="1600" height="720" fill="#fbfcfe"/>
-  <path d="M0 90H1600M0 180H1600M0 270H1600M0 360H1600M0 450H1600M0 540H1600M0 630H1600M100 0V720M200 0V720M300 0V720M400 0V720M500 0V720M600 0V720M700 0V720M800 0V720M900 0V720M1000 0V720M1100 0V720M1200 0V720M1300 0V720M1400 0V720M1500 0V720" stroke="#d9dee7" stroke-width="1"/>
-  <rect x="110" y="120" width="360" height="18" fill="#111111"/>
-  <rect x="110" y="162" width="590" height="18" fill="#111111"/>
-  <rect x="110" y="216" width="170" height="18" fill="#0f62fe"/>
-  <rect x="300" y="216" width="126" height="18" fill="#ff7a1a"/>
-  <rect x="448" y="216" width="210" height="18" fill="#238636"/>
-  <circle cx="1260" cy="225" r="72" fill="none" stroke="#0f62fe" stroke-width="18"/>
-  <circle cx="1370" cy="330" r="44" fill="#ff7a1a"/>
-  <path d="M1080 480H1460" stroke="#111111" stroke-width="22"/>
-  <path d="M1190 532H1460" stroke="#238636" stroke-width="22"/>
+  <rect width="1600" height="720" fill="#f3eadf"/>
+  <path d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M160 0V720M320 0V720M480 0V720M640 0V720M800 0V720M960 0V720M1120 0V720M1280 0V720M1440 0V720" stroke="#decfbe" stroke-width="1"/>
+  <circle cx="1230" cy="220" r="160" fill="#ead2c2" opacity="0.68"/>
+  <circle cx="1370" cy="390" r="94" fill="#d99a75" opacity="0.48"/>
+  <path d="M160 250C305 160 452 182 602 250C752 318 900 340 1055 238" fill="none" stroke="#b85c38" stroke-width="20" stroke-linecap="round" opacity="0.88"/>
+  <rect x="162" y="334" width="492" height="18" rx="9" fill="#191714" opacity="0.9"/>
+  <rect x="162" y="384" width="650" height="18" rx="9" fill="#5f5044" opacity="0.66"/>
+  <rect x="162" y="434" width="338" height="18" rx="9" fill="#8f3f26" opacity="0.7"/>
+  <path d="M1185 500H1448" stroke="#191714" stroke-width="16" stroke-linecap="round" opacity="0.78"/>
+  <path d="M1260 548H1448" stroke="#b85c38" stroke-width="16" stroke-linecap="round" opacity="0.72"/>
 </svg>

@@ -8,9 +8,9 @@ categories:
   - Notes
 ---
 
-<span class="rui-kicker">RUI.LOG</span>
+<span class="rui-kicker">Zhang Ruoyu</span>
 
-这是我的第一篇博客。这个站点会先作为一个稳定、清爽、可长期维护的技术笔记本，用来记录我在 AI、LLM、Agent 和系统工程方向的学习与实践。
+这是张若宇的第一篇博客。这个站点会先作为一个稳定、清爽、可长期维护的技术笔记本，用来记录我在 AI、LLM、Agent 和系统工程方向的学习与实践。
 
 <!-- more -->
 

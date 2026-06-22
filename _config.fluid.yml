@@ -1,5 +1,5 @@
 navbar:
-  blog_title: RUI.LOG
+  blog_title: 张若宇
   menu:
     - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
     - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill' }
@@ -10,7 +10,7 @@ navbar:
 index:
   slogan:
     enable: true
-    text: Building notes for AI, agents, and systems.
+    text: 一个关于 AI、Agent 与系统工程的安静写作空间。
 
 banner_img: /css/banner.svg
 banner_img_height: 72
@@ -47,7 +47,7 @@ tag:
   banner_mask_alpha: 0
 
 footer:
-  content: '<span>锐的技术博客</span><span class="footer-separator">|</span><span>AI / LLM / Agent / Systems</span>'
+  content: '<span>张若宇的博客</span><span class="footer-separator">|</span><span>AI / LLM / Agent / Systems</span>'
 
 custom_css:
   - /css/custom.css

@@ -4,9 +4,9 @@ date: 2026-06-22 20:10:00
 layout: page
 ---
 
-<span class="rui-kicker">About</span>
+<span class="rui-kicker">Zhang Ruoyu</span>
 
-你好，我是锐。这个博客用来记录 AI / LLM / Agent / Systems 方向的论文阅读、工程实践、比赛复盘和长期思考。
+你好，我是张若宇。这个博客是我的个人写作空间，用来记录 AI / LLM / Agent / Systems 方向的论文阅读、工程实践、比赛复盘和长期思考。
 
 ## 关注方向
 
