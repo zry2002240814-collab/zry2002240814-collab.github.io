@@ -306,6 +306,247 @@ html[data-user-color-scheme="dark"] .rui-tile {
   border-top-color: var(--zry-accent);
 }
 
+.research-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+  gap: 1.25rem;
+  margin: 0 0 2.2rem;
+  padding: 1.65rem;
+  overflow: hidden;
+  border: 1px solid rgba(43, 83, 112, 0.22);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, 0.98), rgba(237, 246, 244, 0.86)),
+    var(--zry-card);
+}
+
+.research-hero::before {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(43, 83, 112, 0.065) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(43, 83, 112, 0.055) 1px, transparent 1px);
+  background-size: 26px 26px;
+  content: "";
+}
+
+.research-hero__copy,
+.research-hero__panel {
+  position: relative;
+  z-index: 1;
+}
+
+.research-hero h1 {
+  margin: 0.55rem 0 0.65rem;
+  border: 0;
+  color: var(--zry-ink) !important;
+  font-size: 2.7rem;
+  line-height: 1.12;
+}
+
+.research-hero h1 span {
+  display: block;
+  margin-top: 0.35rem;
+  color: #2b5370;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+}
+
+.research-hero__lead {
+  max-width: 46rem;
+  margin: 0;
+  color: var(--zry-ink-soft) !important;
+  font-size: 1.05rem;
+  line-height: 1.82;
+}
+
+.research-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.research-hero__meta span,
+.research-mail {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  border: 1px solid rgba(43, 83, 112, 0.22);
+  border-radius: 999px;
+  padding: 0.38rem 0.7rem;
+  background: rgba(255, 255, 255, 0.72);
+  color: #2b5370 !important;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.86rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.research-mail {
+  margin-top: 0.75rem;
+}
+
+.research-hero__panel {
+  align-self: stretch;
+  border-left: 4px solid #1f8a70;
+  padding: 1rem 0 1rem 1rem;
+  background: rgba(255, 253, 248, 0.54);
+}
+
+.research-hero__panel span,
+.research-timeline__item span,
+.research-project__heading span,
+.research-award span {
+  display: block;
+  color: #2b5370;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.research-hero__panel strong {
+  display: block;
+  margin: 0.35rem 0 0.55rem;
+  color: var(--zry-ink) !important;
+  font-family: ui-serif, Georgia, "Times New Roman", "Noto Serif CJK SC", "Songti SC", serif;
+  font-size: 1.2rem;
+  line-height: 1.45;
+}
+
+.research-hero__panel p {
+  margin: 0;
+  color: var(--zry-muted) !important;
+  line-height: 1.72;
+}
+
+.research-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.95rem;
+  margin: 1.15rem 0 2rem;
+}
+
+.research-focus,
+.research-project,
+.research-award {
+  border-top: 3px solid #2b5370;
+  padding: 1rem 0 0;
+}
+
+.research-focus:nth-child(2),
+.research-award:nth-child(2) {
+  border-top-color: #1f8a70;
+}
+
+.research-focus:nth-child(3) {
+  border-top-color: var(--zry-accent);
+}
+
+.research-focus:nth-child(4) {
+  border-top-color: #7a4f9f;
+}
+
+.research-focus strong,
+.research-project__heading strong,
+.research-award strong,
+.research-timeline__item strong {
+  display: block;
+  color: var(--zry-ink) !important;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.research-focus span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--zry-muted) !important;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.research-timeline {
+  display: grid;
+  gap: 1rem;
+  margin: 1.15rem 0 2rem;
+  border-left: 2px solid rgba(43, 83, 112, 0.2);
+  padding-left: 1.05rem;
+}
+
+.research-timeline__item {
+  position: relative;
+  padding-bottom: 0.35rem;
+}
+
+.research-timeline__item::before {
+  position: absolute;
+  top: 0.18rem;
+  left: -1.42rem;
+  width: 0.68rem;
+  height: 0.68rem;
+  border: 2px solid #2b5370;
+  border-radius: 999px;
+  background: var(--zry-card);
+  content: "";
+}
+
+.research-timeline__item p,
+.research-project p,
+.research-award p {
+  margin: 0.45rem 0 0;
+  color: var(--zry-muted) !important;
+  line-height: 1.78;
+}
+
+.research-project,
+.research-award {
+  margin: 1.15rem 0;
+}
+
+.research-project {
+  border-top-color: #1f8a70;
+}
+
+.research-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.research-stats span {
+  min-width: 0;
+  border: 1px solid rgba(31, 138, 112, 0.24);
+  border-radius: 8px;
+  padding: 0.8rem;
+  background: rgba(237, 246, 244, 0.7);
+  color: var(--zry-muted) !important;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.research-stats strong {
+  display: block;
+  color: #1f8a70 !important;
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.research-awards {
+  display: grid;
+  gap: 1.15rem;
+  margin: 1.15rem 0 2rem;
+}
+
 @media (max-width: 767px) {
   body::before {
     background-size: 24px 24px;
@@ -313,6 +554,26 @@ html[data-user-color-scheme="dark"] .rui-tile {
 
   .markdown-body {
     font-size: 15.8px;
+  }
+
+  .research-hero {
+    grid-template-columns: 1fr;
+    padding: 1.15rem;
+  }
+
+  .research-hero h1 {
+    font-size: 2.15rem;
+  }
+
+  .research-hero__panel {
+    border-top: 4px solid #1f8a70;
+    border-left: 0;
+    padding: 0.95rem 0 0;
+  }
+
+  .research-focus-grid,
+  .research-stats {
+    grid-template-columns: 1fr;
   }
 
   .index-card,
