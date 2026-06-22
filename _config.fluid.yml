@@ -7,6 +7,10 @@ navbar:
     - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill' }
 
+dark_mode:
+  enable: false
+  default: light
+
 index:
   slogan:
     enable: true
