@@ -167,13 +167,11 @@ body::before {
 }
 
 .index-card {
-  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  transition: border-color 160ms ease;
 }
 
 .index-card:hover {
-  border-color: rgba(184, 92, 56, 0.34);
-  box-shadow: 0 22px 50px rgba(65, 45, 30, 0.14);
-  transform: translateY(-2px);
+  border-color: rgba(126, 78, 42, 0.32);
 }
 
 .index-card .post-meta,
@@ -195,6 +193,29 @@ body::before {
 
 .index-card .index-excerpt {
   color: var(--zry-ink-soft) !important;
+}
+
+/* simple-home: keep the homepage quiet and warm. */
+.index-card {
+  border-radius: 6px;
+  background: rgba(255, 253, 248, 0.88) !important;
+  box-shadow: none;
+}
+
+.index-card .index-header a {
+  font-size: 1.12rem;
+}
+
+.index-card .post-meta {
+  font-size: 0.86rem;
+}
+
+.banner {
+  background-color: #f7f2ea;
+}
+
+.banner .mask {
+  background: transparent !important;
 }
 
 .category-list a,

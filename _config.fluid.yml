@@ -11,7 +11,29 @@ dark_mode:
   enable: false
   default: light
 
+fun_features:
+  typing:
+    enable: false
+  progressbar:
+    color: "#c15f36"
+
+color:
+  navbar_bg_color: "#f7f2ea"
+  navbar_text_color: "#15120f"
+  subtitle_color: "#6d6257"
+  text_color: "#15120f"
+  sec_text_color: "#6d6257"
+  board_color: "#fffdf8"
+  post_text_color: "#2f2a24"
+  post_heading_color: "#15120f"
+  post_link_color: "#7f351f"
+  link_hover_color: "#c15f36"
+  line_color: "#d6bfa9"
+
 index:
+  banner_img: /css/home-banner.svg
+  banner_img_height: 48
+  banner_mask_alpha: 0
   slogan:
     enable: true
     text: 一个关于 AI、Agent 与系统工程的安静写作空间。
