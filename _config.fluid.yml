@@ -1,0 +1,53 @@
+navbar:
+  blog_title: RUI.LOG
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill' }
+    - { key: 'category', link: '/categories/', icon: 'iconfont icon-category-fill' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill' }
+
+index:
+  slogan:
+    enable: true
+    text: Building notes for AI, agents, and systems.
+
+banner_img: /css/banner.svg
+banner_img_height: 72
+banner_mask_alpha: 0
+
+post:
+  banner_img: /css/banner.svg
+  banner_img_height: 42
+  banner_mask_alpha: 0
+  meta:
+    date: true
+    wordcount: false
+    min2read: false
+    views: false
+
+page:
+  banner_img: /css/banner.svg
+  banner_img_height: 42
+  banner_mask_alpha: 0
+
+archive:
+  banner_img: /css/banner.svg
+  banner_img_height: 42
+  banner_mask_alpha: 0
+
+category:
+  banner_img: /css/banner.svg
+  banner_img_height: 42
+  banner_mask_alpha: 0
+
+tag:
+  banner_img: /css/banner.svg
+  banner_img_height: 42
+  banner_mask_alpha: 0
+
+footer:
+  content: '<span>锐的技术博客</span><span class="footer-separator">|</span><span>AI / LLM / Agent / Systems</span>'
+
+custom_css:
+  - /css/custom.css
